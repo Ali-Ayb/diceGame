@@ -32,11 +32,13 @@ body {
   background-color: brown;
   height: 30vh;
   width: 12vw;
+  border-radius: 10%;
 }
 .dice2 {
   background-color: brown;
   height: 30vh;
   width: 12vw;
+  border-radius: 10%;
 }
 
 .dot-image {
