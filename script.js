@@ -13,9 +13,9 @@ dice1.innerHTML = dot_HTML.repeat(player1_num);
 dice2.innerHTML = dot_HTML.repeat(player2_num);
 
 if (player1_num > player2_num) {
-  title.innerText = "Player 1 win !!!";
+  title.innerText = "Player 1 wins!";
 } else if (player2_num > player1_num) {
-  title.innerText = "Player 2 win !!!";
+  title.innerText = "Player 2 wins!";
 } else {
-  title.innerText = "Draw :(";
+  title.innerText = "It's a Draw :(";
 }
