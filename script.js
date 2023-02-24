@@ -1,5 +1,5 @@
-const player1_num = Math.ceil(Math.random() * 6);
-const player2_num = Math.ceil(Math.random() * 6);
+const player1_num = Math.floor(Math.random() * 6 + 1);
+const player2_num = Math.floor(Math.random() * 6 + 1);
 
 const dice1 = document.getElementById("dice1");
 const dice2 = document.getElementById("dice2");
