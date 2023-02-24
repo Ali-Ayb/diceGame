@@ -13,15 +13,28 @@ body {
   display: flex;
   justify-content: center;
 }
-.container2 {
+.container2,
+.container3 {
   margin-left: 25vw;
   height: 20vh;
   display: flex;
   width: 50vw;
   justify-content: space-around;
 }
+
 .player1,
 .player2 {
   color: azure;
   font-size: 56px;
+}
+
+.dice1 {
+  background-color: brown;
+  height: 30vh;
+  width: 15vw;
+}
+.dice2 {
+  background-color: brown;
+  height: 30vh;
+  width: 15vw;
 }
