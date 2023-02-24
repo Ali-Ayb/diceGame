@@ -31,17 +31,14 @@ body {
 .dice1 {
   background-color: brown;
   height: 30vh;
-  width: 15vw;
-  display: flex;
-  flex-wrap: wrap;
+  width: 12vw;
 }
 .dice2 {
   background-color: brown;
   height: 30vh;
-  width: 15vw;
+  width: 12vw;
 }
 
 .dot-image {
-  height: 30%;
-  width: 20%;
+  margin-left: 5%;
 }

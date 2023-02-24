@@ -1,9 +1,13 @@
 let player1_num = Math.ceil(Math.random() * 6);
 let player2_num = Math.ceil(Math.random() * 6);
 
-// const img = document.createElement("img");
-// img.src = "dot_img.png";
+const dice1 = document.getElementById("dice1");
+const dice2 = document.getElementById("dice2");
 
-// if (player1_num == 1) {
-//     document.
-// }
+const img = document.createElement("img");
+img.src = "dot_img.png";
+
+const dotHTML = '<img class="dot-image" src="dot_img.png">';
+
+dice1.innerHTML = dotHTML.repeat(player1_num);
+dice2.innerHTML = dotHTML.repeat(player2_num);
